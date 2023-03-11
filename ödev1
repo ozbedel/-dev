@@ -1,0 +1,18 @@
+#Pyhton dilindeki veri tipler#
+Veri tiplerini 7 ana başlıkta inceleyebiliriz.Bunlar;Metin tipleri,Sayısal Tipler,Dizi tipleri,Adresleme tipleri,Küme Tipleri,Mantıksal Tipler,Binary Tipler
+Metin Tipleri:str:geleneksel olarak, bir değişmez sabit veya bir tür değişken olarak bir karakter dizisidir.örneğin "Merhaba ilter"
+Sayısal tipler: 3 tanedir bunlar;int,float,comlex int:her zaman tam ve bütün olan değerleri simgeleyen bir sayısal niceliktir.örn20 float:bütün olmayan değerleri simgeleyen bir sayısal niceliktir.örn20.5 complex:a+bj şeklinde gerçek ve sanal kısımdan oluşan kompleks sayıları ifade eden veri tipidir.örn1b
+Dizi tipleri: sayısal tipler gibi 3 tanedir, list,tuple,range.List:Sayılabilir bir sıralı değer kümesini ifade eden veri tipidir.örn:["siyah","beyaz","kırmızı"] tuple:tuple,list veri tipi gibi sıralı ögelerden olusan veri tipidir.Tuple ile list arasındaki fark tuplenin değiştirilmez oluşudur.("siyah","beyaz","kırmızı")           range:
+Adresleme tipleri:key ve value şeklinde veri saklıyabileceğimiz bir veri yapısıdır.("isim":"ilter","yas":"23"
+Küme tipleri:2 tanedir set,frozenset. set:Liste, sözlük ve demet veri türü gibi birden çok veri türünü birlikte barındıran veri tipidir.örn("siyah","beyaz","kırmızı") frozenset:kısıtlanmış küme demektir.({"siyah","beyaz","kırmızı"})
+Mantıksal tipler:bool:. Değer aralığı yalnızca true ve false değerleridir.True
+Binary tipler:Bunlar 3 tanedir;Bytes,bytearray,memoryview,Bytes:tam sayıları tuttuğumuz 8 bitlik veri depolayan bir değer tipidir.örn b"merhaba" Bytearray:bytes veri tipi dışında, baytlara ilişkin ikinci veri tipi daha bulunur. bytearray adlı bu veri tipi, bytes veri tipinin aksine, üzerinde değişiklik yapılabilen bir veri tipidir.örn bytearray(3) Memoryview:Python’da arabellek protokolünü ortaya çıkarmanın güvenli bir yolu bellek görüntüleme nesnesi oluşturmaktır. Memoryview bu işlevi görür ve memoryview() ile yaratılır.örn:memoryview(ilter(1)) 
+
+#Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+string veri tipi olarak;kurs progamı,eğitmeniniz,ders programına örnek verebiliriz. float veri tipi olarak;ödevleri tamamlama yüzdelerimizi örnek verebiliriz.
+
+#Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+if kullanıcı adı =="ilterozbedel"
+#   print("Giris Basarılı")
+#else:
+#    print("Yanlis Kullanıcı adı Girdiniz")
